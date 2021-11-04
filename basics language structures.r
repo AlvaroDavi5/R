@@ -48,37 +48,28 @@ input <- readline(prompt="Enter a value: ") # input
 print(str_c("Your input is: ", input)) # output
 
 # decision structures
-if (newnumber >= mynumber)
-{
+if (newnumber >= mynumber) {
 	print(newnumber)
-}
-else
-{
+} else {
 	print(mynumber)
 }
 
 # repetition structures
 items <- c(0,1,2,3,4,5)
-for (i in items)
-{
+for (i in items) {
 	print(i)
 }
 items <- 5
-while (items > 0)
-{
+while (items > 0) {
 	items <- items - 1
 }
 print(items)
 
 # function
-factorial <- function(x)
-{
-	if (x > 1)
-	{
+factorial <- function(x) {
+	if (x > 1) {
 		y <- (x * factorial(x-1))
-	}
-	else
-	{
+	} else {
 		y <- 1
 	}
 
@@ -91,4 +82,3 @@ print(mystring)
 print(fullname)
 
 quit("no") # quit program
-
