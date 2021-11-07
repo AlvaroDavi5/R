@@ -126,7 +126,5 @@ map_ufes <- addCircles(
 	fillOpacity=0.2,
 )
 
+map_ufes
 
-# set candidate
-#df_cand <- candidate_local(2016, uf="ES", export=FALSE, ascii=FALSE, encoding="utf8") slow download
-df_cand <- read.csv("./data/consulta_cand_2018_ES.csv", header=TRUE, sep=",", encoding="utf8")
