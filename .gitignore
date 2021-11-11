@@ -1,0 +1,13 @@
+
+*.pdf
+
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+*.csv
+*.xlsx
+*.xls
+
